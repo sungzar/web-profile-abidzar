@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #121212;
+    background-color: #fdfdfd;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background: #2c2c2c;
+    color: rgb(232, 206, 206);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #6353c6;
+}
+
+section p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: rgb(192, 176, 176);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.instagram-icon {
+    font-size: 50px;
+    color: #972f89
+}
+
+.tiktok-icon {
+    font-size: 45px;
+    margin-left: 20px;
+    color: #000000
+}
+
+.whatsapp-icon {
+    font-size: 50px;
+    margin-left: 20px;
+    color: #33b87c
+}
+
+.project {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.html5-icon {
+    font-size: 80px;
+    margin-left: 10px;
+    color:#d76823
+}
+
+.css3-icon {
+    font-size: 75px;
+    margin-left: 20px;
+    color:#3c5dee
+}
+
+.Gmail-icon {
+    font-size: 50px;
+    margin-left:17px;
+}
